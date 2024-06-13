@@ -1,10 +1,10 @@
-import poster from './assets/boys.jpg'
-import Card from './components/Card'
-import './global.css'
+import Card from './components/Card/Card'
+import './styles/global.css'
 
 function App(){
   return(
     <div>
+      <Card />
       <Card />
       <Card />
     </div>
