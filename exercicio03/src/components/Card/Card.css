@@ -1,0 +1,76 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(47,142,161); background: linear-gradient(0deg, rgba(47,142,161,1) 24%, rgba(60,108,117,1) 100%);
+    height: 100vh;
+}
+
+.cartao{
+    background-color: #ffffff;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 700px;
+}
+
+img{
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid #e1e1e1;
+    margin: 15px 0;
+    transition: 0.3s ease;
+}
+
+img:hover{
+    transform: scale(1.03);
+}
+
+.descricao{
+    margin-top: 10px;
+    border-top: 1px solid #418CD1 ;
+    border-bottom: 1px solid #418CD1 ;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.email{
+    border-top: 1px solid #418CD1 ;
+    border-bottom: 1px solid #418CD1 ;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.numero{
+    
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+}
+
+button{
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #418CD1;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    background-color: #0a457d;
+    
+}
